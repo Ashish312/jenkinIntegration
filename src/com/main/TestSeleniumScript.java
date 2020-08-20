@@ -9,7 +9,7 @@ public class TestSeleniumScript {
 	@Test
 	public void seleniumScript() {
 
-		System.setProperty("webdriver.chrome.driver", "/TestSeleniumProject/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 
 		String baseUrl = "https://www.google.com/";
