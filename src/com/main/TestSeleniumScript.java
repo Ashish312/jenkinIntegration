@@ -16,6 +16,7 @@ public class TestSeleniumScript {
 		driver.get(baseUrl);
 		
 		System.out.println("The scripts is running....");
+		System.out.println("The scripts is running....");
 		driver.close();
 	}
 }
